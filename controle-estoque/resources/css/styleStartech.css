@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5D5B5B;
+}
+
+.titulo {
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+}
+
+#linha { 
+    border: 3px solid white;
+    width: 800px;
+    margin-top: -15px;
+}
+
+.botoes {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.botoes input {
+    margin-right: 25px;
+    border-radius: 10px;
+    height: 20px; 
+    width: 80px;
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #fff;
+}
+
+#Remover {
+    background-color: #F15050;
+    border: 1px solid #F15050;
+}
+
+#Adicionar {
+    background-color: #47E357;
+    border: 1px solid #47E357;
+}
+
+#Atualizar {
+    background-color: #666CF0;
+    border: 1px solid #666CF0;
+}
+
+#Filtrar {
+    background-color:#14EF93;
+    border: 1px solid#14EF93;
+}
+
+.tabela {
+    margin-bottom: 50px;
+}
+
+table ,tr, td {
+    border-collapse: collapse; /*define a separação entre as bordar*/
+    padding: 10px;
+    text-align: left;
+    border: 2px solid #000;
+    text-align: center;
+    width: 600px;
+}
+
+td {
+    background-color: white
+}
+
+
